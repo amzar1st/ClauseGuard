@@ -1,0 +1,12 @@
+FICTIONAL TECHNICAL TEST DOCUMENT. No real parties or binding legal effect.
+Document ID: CG-MSA-1. Complete text, version 1, 2026-10-19.
+Scope: Acme Demo (Buyer) and Orbit Demo (Supplier), Atlas delivery and service,
+from 2026-11-01 through 2027-10-31. No external documents are incorporated.
+No document takes precedence over another unless the comparison policy says so.
+Deadline: Supplier must deliver Atlas exactly on 2026-12-01, and must not deliver earlier or later.
+Payment: Buyer must pay a single total fee of exactly USD 1000 for Atlas. No other fees apply.
+Service levels: Supplier must provide monthly availability of at least 99.0 percent.
+Warranty: Supplier must correct reproducible Atlas defects for 12 months from delivery.
+Termination: Either party may terminate on 30 calendar days written notice.
+Data use: Supplier must never use Buyer's Atlas production data for model training.
+Deliverables: Supplier must provide Atlas source code and an English operations manual.
