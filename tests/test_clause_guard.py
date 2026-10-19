@@ -6,7 +6,7 @@ import pytest
 
 @pytest.fixture
 def env(direct_deploy, direct_vm):
-    c = direct_deploy('contracts/clause_guard.py')
+    c = direct_deploy('contracts/clause_guard.py', sdk_version='v0.3.0-rc7')
     m = sys.modules[type(c).__module__]
     return c, m, direct_vm
 
