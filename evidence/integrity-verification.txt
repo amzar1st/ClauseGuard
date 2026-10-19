@@ -1,0 +1,2 @@
+Source SHA-256: c2eb1a231d653ed71882ba89a71120a9d1c6ed915a74900443e95e5dfea2bf9a
+Decision hash, source hashes, citations and three expected conflict areas verified.

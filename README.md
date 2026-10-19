@@ -34,6 +34,7 @@ Python 3.12+:
 pip install -r requirements-dev.txt
 genvm-lint check contracts/clause_guard.py
 pytest -q
+python scripts/verify_evidence.py
 python scripts/make_request.py FULL_FIXTURE_COMMIT
 ```
 

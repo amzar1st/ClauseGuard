@@ -1,0 +1,45 @@
+Transaction Method Call
+just now
+0x8db6c6688cca750274d76cc8f5494a862b8baf1781542ad7d06c2536030f3395
+Execution
+Status:
+FINALIZED
+Result:
+SUCCESS
+Input
+{"args":["{\"documents\":[{\"id\":\"agreement\",\"sha256\":\"bbb35952d414b12e85b1e9b3f7c74128a5a6918f9de71b13d2d9fbfdfb71552f\",\"url\":\"https://raw.githubusercontent.com/amzar1st/ClauseGuard/129c6e030b72c10fef704e2149430751ed9502e7/fixtures/agreement.txt\"},{\"id\":\"order\",\"sha256\":\"2299cb2f63ca1d56995355108b173d3b7ab92ab6f58c668e20e98acff686ef93\",\"url\":\"https://raw.githubusercontent.com/amzar1st/ClauseGuard/129c6e030b72c10fef704e2149430751ed9502e7/fixtures/order.txt\"}],\"precedence\":[]}",]"method":"open_comparison"}
+Output
+"93579efccba15b3f406d710d151887db6f5f1d7cdeccdeda88fd52eb6e5d2c08"
+Consensus History
+Accepted
+PENDING
+→
+PROPOSING
+→
+COMMITTING
+→
+REVEALING
+→
+ACCEPTED
+Validator Set
+0x8Ce1805d6970d54748dE7160b5b395dCC5c71F44
+llm-router / policy:prd-grok
+SUCCESS
+0x8a876C3F3a4783Bd123982bcBF3c672dc0239004
+llm-router / policy:prd-mistral
+SUCCESS
+Agree
+0xf1C7551292319EE334e2D8A24eAC108Bd4C63b21
+llm-router / policy:prd-sonnet
+SUCCESS
+Agree
+0x892C437da9b9CA0b6017B6f046F58E3526B46ec6
+ERROR
+Idle
+Validator execution cancelled after quorum
+0xe7eEe8a1c1690b0322d795B80A76ab2Cd1a0eAFd
+llm-router / policy:prd-gemini
+SUCCESS
+Agree
+Full Transaction Data
+{...}

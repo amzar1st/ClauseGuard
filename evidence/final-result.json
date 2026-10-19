@@ -1,0 +1,121 @@
+{
+  "assessment": {
+    "fingerprints": [
+      {
+        "id": "agreement",
+        "sha256": "bbb35952d414b12e85b1e9b3f7c74128a5a6918f9de71b13d2d9fbfdfb71552f",
+        "status": "VERIFIED"
+      },
+      {
+        "id": "order",
+        "sha256": "2299cb2f63ca1d56995355108b173d3b7ab92ab6f58c668e20e98acff686ef93",
+        "status": "VERIFIED"
+      }
+    ],
+    "report": {
+      "data_use": {
+        "citations": [
+          {
+            "document": "agreement",
+            "quote": "Data use: Supplier must never use Buyer's Atlas production data for model training."
+          },
+          {
+            "document": "order",
+            "quote": "Data use: Supplier must use all Buyer's Atlas production data for model training every month."
+          }
+        ],
+        "status": "CONFLICT",
+        "summary": "The documents contain mutually exclusive obligations regarding the use of Buyer's Atlas production data for model training. CG-MSA-1 explicitly prohibits the Supplier from using the data for model training, whereas CG-PO-1 mandates that the Supplier must use all such data for model training every month."
+      },
+      "deadlines": {
+        "citations": [
+          {
+            "document": "agreement",
+            "quote": "Deadline: Supplier must deliver Atlas exactly on 2026-12-01, and must not deliver earlier or later."
+          },
+          {
+            "document": "order",
+            "quote": "Deadline: Supplier must deliver Atlas exactly on 2026-12-15, and must not deliver earlier or later."
+          }
+        ],
+        "status": "CONFLICT",
+        "summary": "The documents contain incompatible obligations for the delivery date of the Atlas project. CG-MSA-1 requires delivery exactly on 2026-12-01 with a prohibition on early or late delivery, whereas CG-PO-1 requires delivery exactly on 2026-12-15, also prohibiting early or late delivery. Both documents cover the same parties, subject, and effective period without established precedence."
+      },
+      "deliverables": {
+        "citations": [
+          {
+            "document": "agreement",
+            "quote": "Deliverables: Supplier must provide Atlas source code and an English operations manual."
+          },
+          {
+            "document": "order",
+            "quote": "Deliverables: Supplier must provide Atlas source code and an English operations manual."
+          }
+        ],
+        "status": "CONSISTENT",
+        "summary": "The documents are identical regarding the required deliverables, specifying that the Supplier must provide the Atlas source code and an English operations manual."
+      },
+      "payment": {
+        "citations": [
+          {
+            "document": "agreement",
+            "quote": "Payment: Buyer must pay a single total fee of exactly USD 1000 for Atlas. No other fees apply."
+          },
+          {
+            "document": "order",
+            "quote": "Payment: Buyer must pay a single total fee of exactly USD 1500 for Atlas. No other fees apply."
+          }
+        ],
+        "status": "CONFLICT",
+        "summary": "There is a material conflict regarding the exact fee for Atlas. CG-MSA-1 stipulates a single total fee of exactly USD 1000, while CG-PO-1 stipulates a single total fee of exactly USD 1500. Both documents state no other fees apply, creating incompatible exclusive definitions for the same service and period."
+      },
+      "service_levels": {
+        "citations": [
+          {
+            "document": "agreement",
+            "quote": "Service levels: Supplier must provide monthly availability of at least 99.0 percent."
+          },
+          {
+            "document": "order",
+            "quote": "Service levels: Supplier must provide monthly availability of at least 99.9 percent."
+          }
+        ],
+        "status": "CONSISTENT",
+        "summary": "The documents specify different minimum availability percentages (99.0 percent in CG-MSA-1 and 99.9 percent in CG-PO-1). Under the ClauseGuard policy, different minimums or compatible stricter duties are not considered material conflicts. The 99.9 percent requirement can be satisfied while also meeting the 99.0 percent threshold."
+      },
+      "termination": {
+        "citations": [
+          {
+            "document": "agreement",
+            "quote": "Termination: Either party may terminate on 30 calendar days written notice."
+          },
+          {
+            "document": "order",
+            "quote": "Termination: Either party may terminate on 30 calendar days written notice."
+          }
+        ],
+        "status": "CONSISTENT",
+        "summary": "Both documents contain identical termination provisions allowing either party to terminate the arrangement provided they give 30 calendar days of written notice."
+      },
+      "warranties": {
+        "citations": [
+          {
+            "document": "agreement",
+            "quote": "Warranty: Supplier must correct reproducible Atlas defects for 12 months from delivery."
+          },
+          {
+            "document": "order",
+            "quote": "Warranty: Supplier must correct reproducible Atlas defects for 12 months from delivery."
+          }
+        ],
+        "status": "CONSISTENT",
+        "summary": "Both documents define identical warranty obligations requiring the Supplier to correct reproducible Atlas defects for a duration of 12 months following delivery."
+      }
+    }
+  },
+  "attempt": 1,
+  "comparison_id": "93579efccba15b3f406d710d151887db6f5f1d7cdeccdeda88fd52eb6e5d2c08",
+  "decision_sha256": "54d1aed8b7beac1e8dc163fa6fc81f24142f01b352c0b65545a15084ef10933e",
+  "outcome": "CONFLICTS_FOUND",
+  "policy_sha256": "cb4c518bd84f207b27c8dd72cc4536bb4fb5873043a88dc209974f505cb06f8c"
+}

@@ -1,0 +1,46 @@
+Transaction Contract Deployment
+2 minutes ago
+0x82bf8da9497694735394e56b3d672391d0c0a7d99bc491cf2fde0ebd2de2559d
+Execution
+Status:
+FINALIZED
+Result:
+SUCCESS
+Input
+{}
+Output
+null
+Consensus History
+Accepted
+PENDING
+→
+PROPOSING
+→
+COMMITTING
+→
+REVEALING
+→
+ACCEPTED
+Validator Set
+0x8a876C3F3a4783Bd123982bcBF3c672dc0239004
+llm-router / policy:prd-mistral
+SUCCESS
+Agree
+0x6a4179A851B3747A458baD2f089AB2EeFE0eBbAb
+llm-router / policy:prd-glm
+SUCCESS
+Agree
+0xad7d13f269CeAd4379E64a1A3a0803a827e70B43
+openrouter / openai/gpt-5.4
+SUCCESS
+Agree
+0xf1C7551292319EE334e2D8A24eAC108Bd4C63b21
+llm-router / policy:prd-sonnet
+SUCCESS
+Agree
+0x5Bbbd7cdD63c0ba7f088038Cb049bDDAbE4F6fd1
+openrouter / google/gemini-3-flash-preview
+SUCCESS
+Agree
+Full Transaction Data
+{...}

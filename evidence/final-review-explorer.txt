@@ -1,0 +1,68 @@
+Back to transactions
+Transaction Details
+0x6bf5f5043e3a5d0f58e0b7a7c25acf7e8b3c1991f93f264ed4c7bc2831d1bc76
+FINALIZED
+Call
+Overview
+Monitoring
+Consensus
+Data
+Related (0)
+Hash
+0x6bf5f5043e3a5d0f58e0b7a7c25acf7e8b3c1991f93f264ed4c7bc2831d1bc76
+Status
+FINALIZED
+Type
+Call
+From
+0xd8E6cE9057215C5d48A7d7cFd756c0E0f75fC8C4
+To
+0x373053Ed20258549671963b2CD0601B068b2f151
+Value
+0 GEN
+Nonce
+8
+Gas Limit
+-
+Created At
+Oct 19, 2026, 4:40:44 PM
+Execution Mode
+Normal
+Rotation Count
+0
+Initial Validators
+5
+Consensus Result
+Accepted
+Input Data
+Decoded
+Hex
+Raw
+Export JSON
+Copy
+METHOD
+review
+PARAMETERS
+#	Value
+0	93579efccba15b3f406d710d151887db6f5f1d7cdeccdeda88fd52eb6e5d2c08
+GenVM Execution
+Execution Result
+SUCCESS
+Result Code
+Return
+Return Value
+null
+Stdout
+(empty)
+Stderr
+(empty)
+Equivalence Principle Outputs
+0
+Return
+{"fingerprints":[{"id":"agreement""sha256":"bbb35952d414b12e85b1e9b3f7c74128a5a6918f9de71b13d2d9fbfdfb71552f""status":"VERIFIED"},{"id":"order""sha256":"2299cb2f63ca1d56995355108b173d3b7ab92ab6f58c668e20e98acff686ef93""status":"VERIFIED"},]"report":{"data_use":{"citations":[{"document":"agreement""quote":"Data use: Supplier must never use Buyer's Atlas production data for model training."},{"document":"order""quote":"Data use: Supplier must use all Buyer's Atlas production data for model training every month."},]"status":"CONFLICT""summary":"The documents contain mutually exclusive obligations regarding the use of Buyer's Atlas production data for model training. CG-MSA-1 explicitly prohibits the Supplier from using the data for model training, whereas CG-PO-1 mandates that the Supplier must use all such data for model training every month."}"deadlines":{"citations":[{"document":"agreement""quote":"Deadline: Supplier must deliver Atlas exactly on 2026-12-01, and must not deliver earlier or later."},{"document":"order""quote":"Deadline: Supplier must deliver Atlas exactly on 2026-12-15, and must not deliver earlier or later."},]"status":"CONFLICT""summary":"The documents contain incompatible obligations for the delivery date of the Atlas project. CG-MSA-1 requires delivery exactly on 2026-12-01 with a prohibition on early or late delivery, whereas CG-PO-1 requires delivery exactly on 2026-12-15, also prohibiting early or late delivery. Both documents cover the same parties, subject, and effective period without established precedence."}"deliverables":{"citations":[{"document":"agreement""quote":"Deliverables: Supplier must provide Atlas source code and an English operations manual."},{"document":"order""quote":"Deliverables: Supplier must provide Atlas source code and an English operations manual."},]"status":"CONSISTENT""summary":"The documents are identical regarding the required deliverables, specifying that the Supplier must provide the Atlas source code and an English operations manual."}"payment":{"citations":[{"document":"agreement""quote":"Payment: Buyer must pay a single total fee of exactly USD 1000 for Atlas. No other fees apply."},{"document":"order""quote":"Payment: Buyer must pay a single total fee of exactly USD 1500 for Atlas. No other fees apply."},]"status":"CONFLICT""summary":"There is a material conflict regarding the exact fee for Atlas. CG-MSA-1 stipulates a single total fee of exactly USD 1000, while CG-PO-1 stipulates a single total fee of exactly USD 1500. Both documents state no other fees apply, creating incompatible exclusive definitions for the same service and period."}"service_levels":{"citations":[{"document":"agreement""quote":"Service levels: Supplier must provide monthly availability of at least 99.0 percent."},{"document":"order""quote":"Service levels: Supplier must provide monthly availability of at least 99.9 percent."},]"status":"CONSISTENT""summary":"The documents specify different minimum availability percentages (99.0 percent in CG-MSA-1 and 99.9 percent in CG-PO-1). Under the ClauseGuard policy, different minimums or compatible stricter duties are not considered material conflicts. The 99.9 percent requirement can be satisfied while also meeting the 99.0 percent threshold."}"termination":{"citations":[{"document":"agreement""quote":"Termination: Either party may terminate on 30 calendar days written notice."},{"document":"order""quote":"Termination: Either party may terminate on 30 calendar days written notice."},]"status":"CONSISTENT""summary":"Both documents contain identical termination provisions allowing either party to terminate the arrangement provided they give 30 calendar days of written notice."}"warranties":{"citations":[{"document":"agreement""quote":"Warranty: Supplier must correct reproducible Atlas defects for 12 months from delivery."},{"document":"order""quote":"Warranty: Supplier must correct reproducible Atlas defects for 12 months from delivery."},]"status":"CONSISTENT""summary":"Both documents define identical warranty obligations requiring the Supplier to correct reproducible Atlas defects for a duration of 12 months following delivery."}}}
+Pending
+Proposing
+Committing
+Revealing
+Accepted
+Finalized

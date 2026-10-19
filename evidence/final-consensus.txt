@@ -1,0 +1,158 @@
+Back to transactions
+Transaction Details
+0x6bf5f5043e3a5d0f58e0b7a7c25acf7e8b3c1991f93f264ed4c7bc2831d1bc76
+ACCEPTED
+Call
+Overview
+Monitoring
+Consensus
+Data
+Related (0)
+Show Formatted
+Consensus History
+{...}
+consensus_results: 
+[1]
+0: 
+{...}
+monitoring: 
+{...}
+leader_result: 
+[2]
+status_changes: 
+[5]
+consensus_round: "Accepted"
+validator_results: 
+[4]
+current_monitoring: {}
+current_status_changes: []
+Consensus Data
+{...}
+votes: 
+{...}
+0x7bf4Ea55363bbe73A4dd5b3900bf03c978A63b6e: "idle"
+0x892C437da9b9CA0b6017B6f046F58E3526B46ec6: "agree"
+0x8a876C3F3a4783Bd123982bcBF3c672dc0239004: "idle"
+0xa21bc502E3578E4b3039be8c59a257198f7c3f19: "agree"
+0xf29b6947ed298d139FC2655DB15D868C9AbB3091: "agree"
+validators: 
+[4]
+0: 
+{...}
+mode: "validator"
+vote: "agree"
+result: "AAA="
+calldata: "FgRhcmdzDYQEOTM1NzllZmNjYmExNWIzZjQwNmQ3MTBkMTUxODg3ZGI2ZjVmMWQ3Y2RlY2NkZWRhODhmZDUyZWI2ZTVkMmMwOAZtZXRob2Q0cmV2aWV3"
+gas_used: 0
+node_config: 
+{...}
+genvm_result: 
+{...}
+contract_state: {}
+execution_stats: 
+{...}
+nondet_disagree: null
+processing_time: 22080
+execution_result: "SUCCESS"
+contract_state_hash: "cfcd094cf3afc1713ddf01edeec3d0f0f56f78c4a7cbabcc482a842ba88ab9cf"
+pending_transactions: []
+1: 
+{...}
+mode: "validator"
+vote: "idle"
+result: "AmlkbGU="
+calldata: ""
+gas_used: 0
+node_config: 
+{...}
+genvm_result: 
+{...}
+contract_state: {}
+execution_stats: null
+nondet_disagree: null
+processing_time: 0
+execution_result: "ERROR"
+contract_state_hash: null
+pending_transactions: []
+2: 
+{...}
+mode: "validator"
+vote: "idle"
+result: "AmlkbGU="
+calldata: ""
+gas_used: 0
+node_config: 
+{...}
+genvm_result: 
+{...}
+contract_state: {}
+execution_stats: null
+nondet_disagree: null
+processing_time: 0
+execution_result: "ERROR"
+contract_state_hash: null
+pending_transactions: []
+3: 
+{...}
+mode: "validator"
+vote: "agree"
+result: "AAA="
+calldata: "FgRhcmdzDYQEOTM1NzllZmNjYmExNWIzZjQwNmQ3MTBkMTUxODg3ZGI2ZjVmMWQ3Y2RlY2NkZWRhODhmZDUyZWI2ZTVkMmMwOAZtZXRob2Q0cmV2aWV3"
+gas_used: 0
+node_config: 
+{...}
+genvm_result: 
+{...}
+contract_state: {}
+execution_stats: 
+{...}
+nondet_disagree: null
+processing_time: 27991
+execution_result: "SUCCESS"
+contract_state_hash: "cfcd094cf3afc1713ddf01edeec3d0f0f56f78c4a7cbabcc482a842ba88ab9cf"
+pending_transactions: []
+leader_receipt: 
+[2]
+0: 
+{...}
+mode: "leader"
+vote: null
+result: "AAA="
+calldata: "FgRhcmdzDYQEOTM1NzllZmNjYmExNWIzZjQwNmQ3MTBkMTUxODg3ZGI2ZjVmMWQ3Y2RlY2NkZWRhODhmZDUyZWI2ZTVkMmMwOAZtZXRob2Q0cmV2aWV3"
+gas_used: 0
+eq_outputs: 
+{...}
+node_config: 
+{...}
+genvm_result: 
+{...}
+contract_state: {}
+execution_stats: 
+{...}
+nondet_disagree: null
+processing_time: 8092
+execution_result: "SUCCESS"
+contract_state_hash: "cfcd094cf3afc1713ddf01edeec3d0f0f56f78c4a7cbabcc482a842ba88ab9cf"
+pending_transactions: []
+1: 
+{...}
+mode: "validator"
+vote: "agree"
+result: "AAA="
+calldata: "FgRhcmdzDYQEOTM1NzllZmNjYmExNWIzZjQwNmQ3MTBkMTUxODg3ZGI2ZjVmMWQ3Y2RlY2NkZWRhODhmZDUyZWI2ZTVkMmMwOAZtZXRob2Q0cmV2aWV3"
+gas_used: 0
+node_config: 
+{...}
+genvm_result: 
+{...}
+contract_state: {}
+execution_stats: 
+{...}
+nondet_disagree: null
+processing_time: 35781
+execution_result: "SUCCESS"
+contract_state_hash: "cfcd094cf3afc1713ddf01edeec3d0f0f56f78c4a7cbabcc482a842ba88ab9cf"
+pending_transactions: []
+Simulation Config
+{...}
+signed_rollup_transaction: "0xf9018908808307a12094b7278a61aa25c888815afc32ad3cc52ff24fe57580b9012427241a99000000000000000000000000d8e6ce9057215c5d48a7d7cfd756c0e0f75fc8c4000000000000000000000000373053ed20258549671963b2cd0601b068b2f1510000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000005cf85ab8571604617267730d840439333537396566636362613135623366343036643731306431353138383764623666356631643763646563636465646138386664353265623665356432633038066d6574686f643472657669657700000000008301e481a08c23b066e5aec16a928a930e3c930dc117014ba414ea6acead7e66047985eebaa071e8de15c9fc7f18b783bbd3d0d7247c43de4f89024c287725b31400b34e784e"

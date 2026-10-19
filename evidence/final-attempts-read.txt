@@ -1,0 +1,116 @@
+- main:
+  - link:
+    - /url: /
+  - button "GenLayer Studio":
+    - generic: GenLayer Studio
+  - button "0xd8...C8C4 0 GEN":
+    - text: 0xd8...C8C4
+    - generic: 0 GEN
+  - button:
+  - button:
+  - button:
+  - navigation:
+    - link:
+      - /url: /contracts
+    - link:
+      - /url: /run-debug
+    - link:
+      - /url: /validators
+    - link:
+      - /url: https://docs.genlayer.com/
+    - link:
+      - /url: https://discord.gg/8Jm4v89VAu
+    - link:
+      - /url: https://docs.google.com/forms/d/1IVNsZwm936kSNCiXmlAP8bgJnbik7Bqaoc3I6UYhr-o/viewform
+    - link:
+      - /url: /settings
+  - heading "Run and Debug" [level=3]
+  - generic: Execution Mode
+  - combobox "Execution Mode":
+    - option "Normal (Full Consensus)" [selected]
+    - option "Leader Only (Fast, No Validation)"
+  - heading "Contract clause_guard.py" [level=4]:
+    - text: Contract
+    - generic: clause_guard.py
+  - text: Deployed at
+  - generic: 0x37...f151
+  - button:
+  - link:
+    - /url: https://explorer-studio.genlayer.com/address/0x373053Ed20258549671963b2CD0601B068b2f151
+  - button:
+  - button "Deploy new instance":
+    - generic: Deploy new instance
+  - button "Upgrade code":
+    - generic: Upgrade code
+  - heading "Read Methods" [level=4]:
+    - generic: Read Methods
+  - generic: "State:"
+  - combobox:
+    - option "Accepted"
+    - option "Finalized" [selected]
+  - button "get_attempts":
+    - generic: get_attempts
+  - generic: comparison_id
+  - textbox "comparison_id":
+    - /placeholder: string
+    - text: 93579efccba15b3f406d710d151887db6f5f1d7cdeccdeda88fd52eb6e5d2c08
+  - button "Call Contract":
+    - generic: Call Contract
+  - generic: "Response (Finalized):"
+  - generic: "1"
+  - button "get_comparison":
+    - generic: get_comparison
+  - generic: comparison_id
+  - textbox "comparison_id":
+    - /placeholder: string
+    - text: 93579efccba15b3f406d710d151887db6f5f1d7cdeccdeda88fd52eb6e5d2c08
+  - button "Call Contract":
+    - generic: Call Contract
+  - generic: "Response (Finalized):"
+  - generic: "\"{\\\"creator\\\":\\\"0xd8E6cE9057215C5d48A7d7cFd756c0E0f75fC8C4\\\",\\\"policy_sha256\\\":\\\"cb4c518bd84f207b27c8dd72cc4536bb4fb5873043a88dc209974f505cb06f8c\\\",\\\"request\\\":{\\\"documents\\\":[{\\\"id\\\":\\\"agreement\\\",\\\"sha256\\\":\\\"bbb35952d414b12e85b1e9b3f7c74128a5a6918f9de71b13d2d9fbfdfb71552f\\\",\\\"url\\\":\\\"https://raw.githubusercontent.com/amzar1st/ClauseGuard/129c6e030b72c10fef704e2149430751ed9502e7/fixtures/agreement.txt\\\"},{\\\"id\\\":\\\"order\\\",\\\"sha256\\\":\\\"2299cb2f63ca1d56995355108b173d3b7ab92ab6f58c668e20e98acff686ef93\\\",\\\"url\\\":\\\"https://raw.githubusercontent.com/amzar1st/ClauseGuard/129c6e030b72c10fef704e2149430751ed9502e7/fixtures/order.txt\\\"}],\\\"precedence\\\":[]}}\""
+  - button "get_policy":
+    - generic: get_policy
+  - button "get_result":
+    - generic: get_result
+  - heading "Write Methods" [level=4]:
+    - generic: Write Methods
+  - checkbox "Simulation Mode"
+  - generic: Simulation Mode
+  - button "open_comparison":
+    - generic: open_comparison
+  - generic: request_json
+  - textbox "request_json":
+    - /placeholder: string
+    - text: "{\"documents\":[{\"id\":\"agreement\",\"sha256\":\"bbb35952d414b12e85b1e9b3f7c74128a5a6918f9de71b13d2d9fbfdfb71552f\",\"url\":\"https://raw.githubusercontent.com/amzar1st/ClauseGuard/129c6e030b72c10fef704e2149430751ed9502e7/fixtures/agreement.txt\"},{\"id\":\"order\",\"sha256\":\"2299cb2f63ca1d56995355108b173d3b7ab92ab6f58c668e20e98acff686ef93\",\"url\":\"https://raw.githubusercontent.com/amzar1st/ClauseGuard/129c6e030b72c10fef704e2149430751ed9502e7/fixtures/order.txt\"}],\"precedence\":[]}"
+  - button "Send Transaction":
+    - generic: Send Transaction
+  - button "review":
+    - generic: review
+  - generic: comparison_id
+  - textbox "comparison_id":
+    - /placeholder: string
+    - text: 93579efccba15b3f406d710d151887db6f5f1d7cdeccdeda88fd52eb6e5d2c08
+  - button "Send Transaction":
+    - generic: Send Transaction
+  - heading "Transactions" [level=4]
+  - button:
+  - generic: "0x6bf5"
+  - generic: ...
+  - generic: review
+  - generic: FINALIZED
+  - generic: "0x9200"
+  - generic: ...
+  - generic: open_comparison
+  - generic: FINALIZED
+  - generic: "0xb6ae"
+  - generic: ...
+  - generic: Deploy
+  - generic: FINALIZED
+  - navigation:
+    - button:
+    - button "release_truth.py":
+      - text: release_truth.py
+    - button:
+    - button "clause_guard.py":
+      - text: clause_guard.py
+    - button:
