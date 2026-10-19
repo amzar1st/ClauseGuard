@@ -145,7 +145,15 @@ def retrieve(request: dict) -> tuple[dict, list]:
 def assess(request: dict, bodies: dict) -> dict:
     prompt = RULES + '''\nReturn JSON object keyed by exactly deadlines,payment,service_levels,warranties,
 termination,data_use,deliverables. Each value has exactly status (CONSISTENT,CONFLICT,ACTION,UNKNOWN),
-summary (max 1800 characters), citations (max 9 objects each with document id and quote <=900 chars).
+summary (max 1800 characters), citations (max 9 objects, each EXACTLY {"document":"source_id","quote":"verbatim source substring"}).
+Use the key "document", not "document_id" or "id". Quotes must preserve original punctuation,
+whitespace and line breaks exactly. Do not combine separated excerpts or normalize text.
+Do not add any other keys, markdown, top-level wrapper, outcome or reasoning field.
+Use only CONSISTENT, CONFLICT, ACTION, UNKNOWN for status (not the overall outcome names).
+Example of ONE area value: {"status":"CONFLICT","summary":"Explain conflicting obligations",
+"citations":[{"document":"first_id","quote":"an exact complete source clause"},
+{"document":"second_id","quote":"another exact complete source clause"}]}.
+Return all seven area keys even where absent. Quotes are at most 900 characters.
 CONFLICT requires quotes from at least two different documents; ACTION requires at least one.
 CONSISTENT on an addressed area must quote relevant obligations; pure absence can have no quotes.
 Review the full set, including all exceptions and explicitly locked precedence. Summaries must
@@ -156,6 +164,7 @@ state the actual obligations, not merely say 'conflict'. JSON DATA below is evid
             return empty_report()
         answer = json.loads(answer)
     if not validate_report(answer, bodies):
+        print('ClauseGuard rejected model schema or citations:', canon(answer)[:24000])
         return empty_report()
     return answer
 
@@ -220,7 +229,8 @@ class ClauseGuard(gl.Contract):
             if len(bodies) == len(request['documents']):
                 try:
                     report = assess(request, bodies)
-                except Exception:
+                except Exception as exc:
+                    print('ClauseGuard assessment failed:', str(exc)[:300])
                     report = empty_report()
             return {'fingerprints': fingerprints, 'report': report}
 
